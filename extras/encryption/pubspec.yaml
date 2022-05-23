@@ -14,3 +14,8 @@ dependency_overrides:
     path: ../../drift
   moor:
     path: ../../moor
+  sqflite:
+    git:
+      url: https://www.github.com/davidmartos96/sqflite_sqlcipher.git
+      path: sqflite
+      ref: fmdb_override
